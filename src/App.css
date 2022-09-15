@@ -1,0 +1,270 @@
+.side-write {
+    text-align: left;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    color: #363232;
+    font-weight: bold;
+    align-items: center;
+}
+
+.side-write {
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: #eae9e9;
+    border-style: solid;
+    background-size: cover;
+    background-image: url("./image/firstBackground.jpg");
+}
+
+.main-middle {
+    margin-top: 30px;
+    display: grid;
+    text-align: left;
+    place-items: center;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid gray;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.write-contaon img {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.left-contain {
+    align-items: center;
+}
+
+.left-contain span {
+    color: rgb(240, 61, 120);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.left-contain span:hover {
+    color: pink;
+}
+
+.heding-box2 h2 {
+    font-size: 40px;
+    padding-left: 20px;
+    color: #363232;
+}
+
+.heding-box2 {
+    border-bottom: 2px solid rgb(240, 61, 120);
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.heding-box3 p {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-Profile1 {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+.main-Profile1 h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main-Profile1 p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Profile {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0px 5%;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-Profile1 .Profile img {
+    max-width: 100%;
+    height: 300px;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 70%;
+
+    object-position: top;
+}
+
+.main-Profile1 .Profile span {
+    color: rgb(240, 61, 120);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-Profile1 .Profile span:hover {
+    color: pink;
+}
+
+.middle-box3 {
+    color: #ffffff;
+    background-image: url("./image/background.jpg");
+    background-color: rgba(105, 120, 128, 0.1);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    border-width: 0px 0px 0px 0px;
+    border-color: #eae9e9;
+    border-style: solid;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.containt-box p {
+    text-align: left;
+
+}
+
+.containt-box span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading-box3 h1 {
+    margin: 50px;
+    color: #000000;
+    text-align: center;
+}
+
+.upper-footer {
+    display: grid;
+    text-align: center;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+.images img {
+    max-width: 100%;
+    height: 200px;
+    width: 90%;
+    object-fit: cover;
+    padding: 10px;
+    object-position: top;
+    vertical-align: top;
+    box-shadow: none !important;
+}
+
+.footer-mini-image {
+    margin-top: 100px;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.footer-mini-image img {
+    margin: 20px;
+    width: 80%;
+    height: 70px;
+    object-fit: contain;
+}
+
+.footer {
+    background-color: #123231;
+}
+
+.footer-under {
+    padding: 30px;
+    color: #f9d982;
+    display: flex;
+    /* display: grid; */
+    /* place-items: center; */
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.first img {
+    margin-top: 0;
+    padding: 0;
+
+    width: 300px;
+    object-fit: contain;
+}
+
+.footer-under .first {
+    margin-left: 50px;
+}
+
+.footer-under .second {
+    margin-left: 100px;
+
+}
+
+.footer-under .third {
+    margin-left: 100px;
+
+}
+
+.fourth {
+    margin-left: 100px;
+    margin-top: 5%;
+
+}
+
+.third {
+    text-align: center;
+    font-size: 15px;
+}
+
+.fifth {
+    text-align: center;
+    margin-left: 50px;
+    font-size: 15px;
+
+}
+
+.third p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.fifth p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.second {
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+.footer-under {
+    border-bottom: 2px solid gray;
+
+}
+
+.last-footer p {
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
